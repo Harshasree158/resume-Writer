@@ -5,7 +5,7 @@ def generate_resume_and_cover(user_data):
     print("Calling Cohere API with:", user_data)
 
     # You can set this in your environment or paste it directly for testing (not recommended for production)
-    cohere_api_key = os.getenv("KxOxP1jPb0l3qwjBp81YlT8zfbjkBu3jTub1A8Wp")
+    cohere_api_key = os.getenv("sk...............")
     client = cohere.Client(cohere_api_key)
 
     prompt = f"""
